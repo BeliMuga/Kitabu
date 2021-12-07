@@ -1,0 +1,1 @@
+This is my first real project on the path to learning web development. By the end of it, I would like to have familiarized myself with terminal, git, github, vs code, html, css, javascript and the whole process of starting with nothing and having a working website at the end of it.
