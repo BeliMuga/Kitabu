@@ -1,0 +1,142 @@
+
+
+
+body {
+    margin: 0 250px;
+    padding: 0 65px;
+    position: absolute;
+    top: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 670px;
+    margin-bottom: 5px;
+    border: solid 3px #E9E9E9;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 #CACACA;
+}
+
+.logo {
+left: 100px;
+}
+
+h2, h3, h6 {
+    font-weight: normal;
+}
+
+h6 {
+    color: #9E5106;
+    margin: 0px;
+    padding: 0px 0 px 0;
+    line-height: 0px;
+}
+h3 {
+    margin: 5px 0 0 0;
+    padding: 5px 0 0 0;
+    line-height: 40px;
+}
+
+.bookshelf {
+    border: 3px solid #9E5106;
+    border-radius: 50%;
+    float: right;
+    shape-outside: ellipse();
+}
+
+.bookshelf {
+    position: absolute;
+    top: 20px;
+    left: 475px;
+}
+
+p {
+    font-family: "Baskerville";
+    font-size: 15px;
+    color: #144552;
+    width: 400px;
+    clear: left;
+}
+p {
+    position: absolute;
+    top: 60px;
+}
+
+.contact, .container, .browseall {
+    position: relative;
+    top: 200px;
+}
+
+.contact {
+    width: 150px;
+    height: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #9E5106;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #144552;
+    box-shadow: 0 0.95px 3px 0 #9E5106; 
+}
+
+.contact:hover {
+    background-color: #FFF6ED;
+}
+
+.card {
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 5px 5px 10px 7px;
+    margin: 20px;
+    border: 3px solid #36879E;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #144552;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    white-space: nowrap;
+    flex-direction: column-reverse;
+}
+
+.card:hover {
+    background-color: #F9FEFF;
+
+}
+
+.browseall {
+    width: 100px;
+    height: 50px;
+    padding: 5px 10px;
+    margin: 0 40%;
+    margin-bottom: 50px;
+    border: 2.5px solid #36879E;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #9E5106;
+}
+
+.browseall:hover {
+    background-color: #EFFBFF;
+}
+
+.card, .browseall {
+    box-shadow: 0 1px 4px 0 #36879E;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.mask {
+    display: flex;
+    justify-content: space-between;
+}
+
+
