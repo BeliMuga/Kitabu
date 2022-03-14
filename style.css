@@ -2,7 +2,7 @@
 
 
 body {
-    margin: 0 250px;
+    margin: 0 250px 0 250px;
     padding: 0 65px;
     position: absolute;
     top: 0;
@@ -139,4 +139,19 @@ p {
     justify-content: space-between;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 550px;
+}
 
+.header1 {
+    display: flex;
+    justify-content: center;
+    gap: 135px;
+}
+
+.profile {
+    margin-top: 10px;
+}
