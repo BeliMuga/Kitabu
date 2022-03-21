@@ -146,7 +146,7 @@ p {
     gap: 550px;
 }
 
-.header1 {
+.subheader {
     display: flex;
     justify-content: center;
     gap: 135px;
