@@ -8,8 +8,9 @@ html, body {
 body {
     margin: 0 250px 0 250px;
     padding: 0 65px;
-    position: absolute;
+    position: relative;
     top: 0;
+    padding-bottom: 70px;
 }
 
 body {
@@ -18,6 +19,11 @@ body {
     border: solid 3px #E9E9E9;
     border-radius: 10px;
     box-shadow: 0 2px 3px 0 #CACACA;
+}
+
+.bodycontainer {
+    height:auto !important;
+    min-height:100%;
 }
 
 .logo {
@@ -157,4 +163,16 @@ p {
 
 .profile {
     margin-top: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 23px;
+    padding-top: 3px;
+    background-color: #E9E9E9;
+    text-align: center;
+    color: #144552;
 }
